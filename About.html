@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial;
+            font-size: 17px;
+        }
+        
+        .container {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .container img {
+            vertical-align: middle;
+        }
+        
+        .container .content {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="gym-logo.jpg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </img>
+                <span class="ml-3 text-xl">S-Fitness</span>
+            </a>
+            <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
+                <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+                <a href="service.html" class="mr-5 hover:text-gray-900">Service</a>
+                <a href="About.html" class="mr-5 text-gray-900">About</a>
+                <a href="price.html" class="mr-5 hover:text-gray-900">Price</a>
+                <a href="contact.html" class="mr-5 hover:text-gray-900">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <img src="gym1.jpg" alt="contents" style="width:100%;">
+        <div class="content">
+            <h1>Stay Strong</h1>
+            <p>No matter how slow you go you're still lapping everyone on the couch.To keep the body in good health is a duty.otherwise we shall not be able to keep our mind strong and clear.When it comes to eating right and exercising, there is no 'I'll
+                start tomorrow'.It never gets easier, you just get better.</p>
+        </div>
+    </div>
+
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <img src="gym-logo.jpg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </img>
+                <span class="ml-3 text-xl">S-Fitness</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+                <b>Twitter:- </b> <a href="https://twitter.com/luvseverussnape" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@luvseverussnape</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
